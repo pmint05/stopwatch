@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        Stopwatch by <a href="http://fb.com/pmint05" target="_blank" rel="noopener noreferrer">pmint05</a>
+    </header>
+    <div class="wrapper">
+        <div class="time">
+            <span class="hour">00</span>
+            <span class="colon">:</span>
+            <span class="minute">00</span>
+            <span class="colon">:</span>
+            <span class="second">00</span>
+            <span class="colon ms-colon">:</span>
+            <span class="millisecond">00</span>
+        </div>
+        <div class="buttons">
+            <button class="start">Start</button>
+            <button class="stop">Stop</button>
+            <button class="reset">Reset</button>
+            <button class="delete">Delete</button>
+        </div>
+        <div class="buttons mobile">
+            <button class="start mobile">
+                <ion-icon name="play-outline"></ion-icon>
+            </button>
+            <button class="stop mobile">
+                <ion-icon name="pause-outline"></ion-icon>
+            </button>
+            <button class="reset mobile">
+                <ion-icon name="refresh-outline"></ion-icon>
+            </button>
+            <button class="delete mobile">
+                <ion-icon name="trash-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
+    <div class="timeList">
+        <ul class="times">
+
+        </ul>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
